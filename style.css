@@ -1,0 +1,113 @@
+
+@keyframes gradientBG {
+    0% {background-position: 0% 50%;}
+    50% {background-position: 100% 50%;}
+    100% {background-position: 0% 50%;}
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(-45deg, #0d1b2a, #1b263b, #415a77, #1b263b);
+    background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
+    color: #fff;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.container {
+    background: rgba(0,0,0,0.7);
+    padding: 40px 50px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+h1 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+.input-group {
+    margin: 15px 0;
+}
+
+label {
+    display: block;
+    color: #fff;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 10px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1em;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    outline: none;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #fff;
+}
+
+button {
+    padding: 12px 25px;
+    margin-top: 15px;
+    background-color: #1b263b;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    font-weight: bold;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    background-color: #415a77;
+}
+
+#resultado {
+    margin-top: 25px;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
+    transition: color 0.3s, transform 0.3s;
+}
+
+.gif-container {
+    text-align: center;
+}
+
+.gif {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.gif:hover {
+    transform: scale(1.1);
+}
