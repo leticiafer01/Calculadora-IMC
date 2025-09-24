@@ -32,7 +32,8 @@ Design com background gradiente animado e painel interativo.
 ---
 
 ##  Como usar 🔗
-1. Baixe/clon e o repositório  
-2. Abra o arquivo `index.html` no navegador  
-3. Informe peso e altura → veja seu resultado 🥳
+1. Acesse o link: [calculadora de IMC](https://calculadora-imc-theta-three.vercel.app/)  
+2. Informe seu **peso** e **altura**  
+3. Veja seu resultado na hora 🥳  
+
 
